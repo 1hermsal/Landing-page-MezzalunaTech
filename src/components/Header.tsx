@@ -12,9 +12,9 @@ export function Header() {
   return (
     <header className="sticky top-0 z-20 border-b border-line bg-white/95 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-5">
-        <a href="#top" className="flex items-center gap-2.5" aria-label="Mezzaluna.Tech">
+        <a href="#top" className="flex min-w-0 items-center gap-2" aria-label="Mezzaluna.Tech">
           <Image src="/image/logo/mezzaluna-mark.png" alt="" width={44} height={25} priority />
-          <span className="text-lg font-bold tracking-tight">
+          <span className="text-base font-bold tracking-tight sm:text-lg">
             Mezzaluna<span className="text-accent">.Tech</span>
           </span>
         </a>
@@ -25,7 +25,7 @@ export function Header() {
             </a>
           ))}
         </nav>
-        <Button href="#kontak" className="px-5 py-2.5 text-sm">
+        <Button href="#kontak" className="shrink-0 whitespace-nowrap px-4 py-2 text-sm sm:px-5 sm:py-2.5">
           Hubungi kami
         </Button>
       </div>

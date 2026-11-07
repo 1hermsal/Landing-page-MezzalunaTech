@@ -46,14 +46,14 @@ export function Categories({ products }: { products: Product[] }) {
             return (
               <div
                 key={c.id}
-                className={`flex min-h-72 w-[80%] flex-none snap-start flex-col rounded-tl-[4.5rem] rounded-br-[4.5rem] rounded-bl-2xl rounded-tr-2xl p-7 sm:w-auto ${t.card}`}
+                className={`flex min-h-60 w-[72%] flex-none snap-start flex-col rounded-tl-[3rem] rounded-br-[3rem] rounded-bl-xl rounded-tr-xl p-5 sm:min-h-72 sm:w-auto sm:rounded-tl-[4.5rem] sm:rounded-br-[4.5rem] sm:rounded-bl-2xl sm:rounded-tr-2xl sm:p-7 ${t.card}`}
               >
                 <span className={`flex h-12 w-12 items-center justify-center rounded-full ${t.icon}`}>
                   <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                     {icons[c.icon]}
                   </svg>
                 </span>
-                <h3 className="mt-auto pt-10 text-xl font-semibold">{c.name}</h3>
+                <h3 className="mt-auto pt-6 text-lg font-semibold sm:pt-10 sm:text-xl">{c.name}</h3>
                 <p className={`mt-2 text-[15px] leading-relaxed ${t.muted}`}>{c.text}</p>
                 <a
                   href={link.href}
