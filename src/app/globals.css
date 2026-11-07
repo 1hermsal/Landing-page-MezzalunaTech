@@ -1,13 +1,15 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand: #d97757;
-  --color-brand-hover: #c4623f;
-  --color-brand-text: #b5532f; /* oranye lebih gelap untuk teks kecil di atas putih */
-  --color-ink: #1f1e1d;
-  --color-muted: #6b6a68;
-  --color-line: #e8e6e3;
-  --color-soft: #f7f6f5;
+  --color-brand: #0a2a5e;        /* biru tua, senada banner: tombol, kartu, banner CTA */
+  --color-brand-hover: #123e85;  /* hover tombol */
+  --color-brand-text: #0a2a5e;   /* teks kecil berwarna di atas putih */
+  --color-accent: #0a6cff;       /* biru terang seperti ".Tech" di logo */
+  --color-ink: #070e1d;          /* teks utama dan footer */
+  --color-muted: #5a6478;
+  --color-line: #e2e7f0;
+  --color-soft: #f5f7fb;
+  --color-tint: #e8f0fb;         /* latar biru muda (pengganti peach) */
   --font-sans: "Plus Jakarta Sans Variable", system-ui, sans-serif;
 }
 
@@ -32,6 +34,10 @@ body {
   outline: 2px solid var(--color-brand);
   outline-offset: 3px;
   border-radius: 4px;
+}
+
+a[aria-label="Mezzaluna.Tech"]:focus-visible {
+  outline: none;
 }
 
 details > summary { list-style: none; }

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "multi-agen",
+    "name": "Multi Agen",
+    "category": "Dashboard Pembukuan Agen Keuangan",
+    "description": "Aplikasi untuk pemilik outlet dengan banyak konsep Multi Agen seperti BRILink dan BNI Agen46, dsb. Semua transaksi dan saldo terkumpul di satu tempat.",
+    "features": [
+      "Saldo tiap agen dan laba total dalam satu layar",
+      "Laporan harian dan bulanan",
+      "Dibuka dari HP, tablet, atau komputer"
+    ],
+    "demoUrl": "https://demo-multi-agent-cyan.vercel.app/",
+    "image": "/image/product/multi-agen/desktop.png",
+    "createdAt": "2026-10-31T00:00:00.000Z",
+    "tabletImage": "/image/product/multi-agen/tablet.png"
+  },
+  {
+    "id": "Jadoel",
+    "name": "Jadoel Web E-Commerce",
+    "category": "Website & toko online",
+    "description": "Toko online satu pemilik dengan banyak kategori: perabotan, skincare, dan parfum. Cocok untuk usaha yang ingin mulai berjualan online.",
+    "features": [
+      "Katalog per kategori",
+      "Pencarian dan filter produk",
+      "Keranjang belanja"
+    ],
+    "demoUrl": "https://jadoelweb.vercel.app",
+    "image": "/image/product/jadoel/desktop.png",
+    "createdAt": "2026-10-30T00:00:00.000Z",
+    "tabletImage": "/image/product/jadoel/tablet.png"
+  },
+  {
+    "id": "acil-sport",
+    "name": "Acil Sport Web E-Commerce",
+    "category": "Website & toko online",
+    "description": "Toko online yang berjualan di peralatan olahraga dengan konsep satu pemilik dan satu halaman admin khusus upload produk.",
+    "features": [
+      "Tampilan modern dan profesional",
+      "Informasi produk dan layanan",
+      "Halaman admin untuk upload produk"
+    ],
+    "demoUrl": "https://acil-sport.vercel.app/",
+    "image": "/image/product/acil-sport/desktop.png",
+    "createdAt": "2026-10-29T00:00:00.000Z",
+    "tabletImage": "/image/product/acil-sport/tablet.png"
+  }
+]
