@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #d97757;
+  --color-brand-hover: #c4623f;
+  --color-brand-text: #b5532f; /* oranye lebih gelap untuk teks kecil di atas putih */
+  --color-ink: #1f1e1d;
+  --color-muted: #6b6a68;
+  --color-line: #e8e6e3;
+  --color-soft: #f7f6f5;
+  --font-sans: "Plus Jakarta Sans Variable", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; }
+}
+
+body {
+  background: #fff;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+details > summary { list-style: none; }
+details > summary::-webkit-details-marker { display: none; }
